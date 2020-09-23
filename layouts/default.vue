@@ -5,7 +5,7 @@
 </template>
 
 <script>
-    import LayoutConfig from '../components/Antd/Config';
+    import LayoutConfig from '../components/AntD/Config';
 
     export default {
         components: {

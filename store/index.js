@@ -12,10 +12,7 @@ export const getters = {
 
 export const actions = {
     // Only mode: universal
-    nuxtServerInit({ commit }) {
-        const locale = this.$cookies.get(cookies.LOCALE);
-        commit('SET_LANG', locale || 'vi');
-    },
+    nuxtServerInit({ commit }) {},
 };
 
 export const mutations = {
