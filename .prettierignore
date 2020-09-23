@@ -1,0 +1,4 @@
+static/
+.nuxt/
+node_modules/
+ansible/
